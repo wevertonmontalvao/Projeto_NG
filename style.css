@@ -68,7 +68,7 @@ h2 {
   .slider-container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     overflow: hidden;
     border-radius: 10px;
   }
@@ -76,39 +76,17 @@ h2 {
   .slide {
     display: none;
     width: 95%;
-    height: 95%;
+    height: 100%;
     position: absolute;
     top: 5%;
     left: 2%;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   .slide img {
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover; /* Garante que a imagem se ajuste ao tamanho do container sem perder qualidade */
-    border-radius: 20px;
+    border-radius: 80px;
   }
   
   input[type="radio"] {
@@ -144,21 +122,49 @@ h2 {
     background-color: #555;
   }
 
+/* aqui ficara a sessão de dicas para hospedagem em belém */
+
+#texto-apresentação {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+    text-align: justify;
+    text-indent: 15px;
+    background-color: #f8f8f8;
+    width: 100%;
+   
+   
+    
+}
+
+#texto-apresentação p {
+    color: #013832;
+    font-size: 18px;
+}
+
+
+
+/* #hotel img {
+    border-radius: 30px;
+}
+
+#hotel li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+} */
 
 
 
 
 
-
+/* estilizando os botões */
 
 .paragrafo {
     line-height: 150%;
     margin-bottom: 32px;
     font-size: 15px;
 }
-
-
-/* estilizando os botões */
 
 .botao {
     border-radius: 8px;
@@ -185,23 +191,6 @@ h2 {
 }
 
 
-/* aqui ficara a sessão de dicas para hospedagem em belém */
-
-#hotel {
-    display: flex;
-    align-items: center;
-    gap: 64px;
-    padding: 64px 80px;
-}
-
-#hotel img {
-    border-radius: 30px;
-}
-
-#hotel li {
-    margin-bottom: 16px;
-    margin-left: 32px;
-}
 
 
 /* aqui ficara a sessão turismo com dicais de pontos turisticos */
@@ -215,6 +204,11 @@ h2 {
 
 }
 
+#turismo p{
+    text-align: justify;
+    text-indent: 15px;
+}
+
 #turismo img {
     margin: 64px auto;
     border-radius: 30px;
@@ -223,6 +217,8 @@ h2 {
 #farmacia .paragrafo {
     max-width: 950px;
     margin: 0 auto;
+   
+    
 }
 
 
@@ -316,9 +312,10 @@ h2 {
 .description {
     margin-top: 10px;
     text-align: justify;
-    text-decoration: none;
     text-align: center;
 }
+
+
 
 .description p {
     color:  #013832;
@@ -350,6 +347,7 @@ footer .titulo {
     display: block;
     font-weight: 600;
     margin-bottom: 24px;
+    
 }
 
 footer nav a   {
@@ -362,7 +360,7 @@ footer nav a   {
 
 footer p {
     margin-bottom: 16px;
-    max-width: 350px;
+    max-width: 250px;
 }
 
 
