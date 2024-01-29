@@ -27,64 +27,38 @@
     </header>
 
     <!--CARROSSEL-->
-<section class="section" >
-    <div class="content">
-
-        <div class="slides">
-
-            <input class="input" type="radio" name="slide" id="slide1" checked>
-            <input class="input" type="radio" name="slide" id="slide2">
-            <input class="input" type="radio" name="slide" id="slide3">
-            <input class="input" type="radio" name="slide" id="slide4">
-            <input class="input" type="radio" name="slide" id="slide5">
-
-
-            <div class="slide s1">
-                <img src="imagens/imagem-ilustrativa.jpg" alt="">
-            </div>
-
-            <div class="slide">
-                <img src="./img/2.jpg" alt="">
-            </div>
-
-            <div class="slide">
-                <img src="imagens/imagem-praça-do-relogio.jpg" alt="">
-            </div>
-
-            <div class="slide">
-                <img src="./img/4.jpg" alt="">
-            </div>
-
-            <div class="slide">
-                <img src="./img/5.jpg" alt="">
-            </div>
-        </div>
+ <section class="carrossel" >
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+  
+    <div class="slider-container">
+      <div class="slide" id="slide1">
+        <img src="imagens/imagem-belém-panoramica.jpg" alt="Slide 1">
+      </div>
+      <div class="slide" id="slide2">
+        <img src="imagens/imagem-praça-do-relogio.jpg" alt="Slide 2">
+      </div>
+      <div class="slide" id="slide3">
+        <img src="imagens/imagem-ilustrativa.jpg" alt="Slide 3">
+      </div>
     </div>
-
-    <div class="navigation">
-
-        <label class="bar" for="slide1"></label>
-        <label class="bar" for="slide2"></label>
-        <label class="bar" for="slide3"></label>
-        <label class="bar" for="slide4"></label>
-        <label class="bar" for="slide5"></label>
-
+  
+    <div class="slider-navigation">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
     </div>
-</section>
+ </section>
+ <!--Fim do carrossel-->
     
 
 
 
 
 
-
-
-
-
-
-
     <main>
-        <section id="home" >
+        <!-- <section id="home" >
             <img src="imagens/imagem-belém-panoramica.jpg" alt="imagem panoramica"  width="500px"  height="500px" >
 
             <div>
@@ -105,9 +79,10 @@
                 <a class="botao" href="#" target="_blank" >Descubra mais</a>
                 <a class="botao-transparente" href="#clinica">Sobre a capital</a>
             </div>
-            <!-- <img class="absolute" src="imagens/shape.svg" alt="imagem decorativa laranja "> -->
-        </section>
+            
+        </section> -->
 
+    
 
         <section id="hotel" >
             <div>
@@ -187,6 +162,28 @@
             </div>
         </section>
     </main>
+
+    <section class="desenvolvido" >
+        <div class="developers-section">
+            <h2>Conheça os Desenvolvedores</h2>
+        
+            <div class="developer">
+                <img src="imagens/desenvolvedor.jpeg" alt="Desenvolvedor 1">
+                <div class="description">
+                    <h2>Weverton</h2>
+                    <p> <strong> Olá a todos! Meu nome é Weverton Montalvão Ribeiro, tenho 24 anos e sou natural da encantadora cidade de Belém, no Estado do Pará. Atualmente, estou imerso no mundo da tecnologia, cursando Análise e Desenvolvimento de Sistemas. A busca pelo conhecimento nesta área fascinante é a minha paixão, e estou empenhado em aprimorar minhas habilidades para contribuir de forma significativa no universo da tecnologia da informação. Estou ansioso para explorar novas oportunidades, desafios e, claro, para compartilhar experiências com todos vocês!</strong></p>
+                </div>
+            </div>
+        
+            <div class="developer">
+                <img src="imagens/desenvolvedora.jpeg" alt="Desenvolvedor 2">
+                <div class="description">
+                    <h2>Daniela</h2>
+                    <p> <strong>Tenho 30 anos de idade, natural de Santarém - Pará, moro em Niterói -RJ. Sou Geóloga pela Universiadade Federal do Oeste do Pará, mestranda em Engenharia Urbana pela Universidade Federal do Rio de Janeiro, onde desenvolvo meu projeto relacionado à Hidrogeologia associado às Cidades Inteligentes. Além disso, sou estudante de Cloud Computing e musicista (flauta transversal, saxofone e violão).</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div>
