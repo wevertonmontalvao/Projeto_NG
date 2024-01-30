@@ -310,20 +310,16 @@ h2 {
     object-fit: cover;
 }
 
-.description {
+
+
+
+.ident {
     margin-top: 10px;
     text-align: justify;
-    text-align: center;
-}
-
-
-
-.description p {
+    text-indent: 15px;
     color:  #013832;
+  
 }
-
-
-
 
 
 
