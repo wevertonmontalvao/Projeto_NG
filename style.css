@@ -123,7 +123,7 @@ h2 {
     background-color: #555;
   }
 
-/* aqui ficara a sessão de dicas para hospedagem em belém */
+/* texto apresentação */
 
 #texto-apresentação {
     display: flex;
@@ -134,10 +134,14 @@ h2 {
     text-indent: 15px;
     background-color: #f8f8f8;
     width: 100%;
-   
-   
-    
+     
 }
+
+
+#texto-apresentação h2 {
+    text-align: center;
+}
+
 
 #texto-apresentação p {
     color: #013832;
